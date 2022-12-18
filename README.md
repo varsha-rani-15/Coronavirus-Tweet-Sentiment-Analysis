@@ -100,9 +100,9 @@ Positive Sentiments are having higher proportion among all.
 ## Confusion Matrix
 A Confusion matrix is an N x N matrix used for evaluating the performance of a classification model, where N is the number of target classes.
 
-##Conclusion
+## Conclusion
 
-* Conclusion on EDA:
+* **Conclusion on EDA:**
 
 > •	Original Dataset contains 6 columns and 41157 rows.
 
@@ -126,7 +126,7 @@ A Confusion matrix is an N x N matrix used for evaluating the performance of a c
 
 > •	The graphical representation of top 10 locations shows us that most of the tweets came from London followed by United States.
 
-* Conclusion on Model Training:
+* **Conclusion on Model Training:**
 
 > •	At the end we conclude our classification project with five models namely - Logistic Regression Model, Decision Tree Classifier, Random Forest Classifier and Gradient Boosting Classifier.
 
