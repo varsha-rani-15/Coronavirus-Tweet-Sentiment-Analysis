@@ -1,5 +1,4 @@
-# Coronavirus-Tweet-Sentiment-Analysis
-# Machine Learning (Classification) Project
+# Coronavirus Tweet Sentiment Analysis
 
 ##	Problem Statement
 This challenge asks us to build a classification model to predict the sentiment of COVID-19 tweets. The tweets have been pulled from Twitter and manual tagging has been done then.
@@ -16,7 +15,7 @@ We are given the following information:
 The objective of this project is to build a classification model to predict the sentiment of COVID-19 tweets.
 
 ## Steps Involved
-* Importing Libraries and Data Inspection
+* **Importing Libraries and Data Inspection**
 > Libraries used:
 
 > •	Pandas – Manipulation of tabular data in Dataframes 
@@ -29,7 +28,7 @@ The objective of this project is to build a classification model to predict the 
 
 The original Dataset contains 6 columns and 41157 rows. 
 
-* Feature Engineering
+* **Feature Engineering**
 > Step 1 : Converted all characters to lowercase.
 
 > Step 2 : Removed Punctuation.
@@ -38,7 +37,7 @@ The original Dataset contains 6 columns and 41157 rows.
 
 After dropping the null values and adding a new column ‘clean_tweets’, now we have 7 columns and 32567 rows. 
 
-* Exploratory Data Analysis
+* **Exploratory Data Analysis**
 > •	Proportion of Sentiments
 
 > •	Proportion of new Sentiments
@@ -58,14 +57,14 @@ Positive Sentiments are having higher proportion among all.
 
 > •	Word Cloud
 
-* Model Training
+* **Model Training**
 > •	Linear Regression
 > •	Decision Tree Classifier
 > •	Random Forest Classifier
 > •	Gradient Boosting Classifier
 
 ## Performance Metrics and Accuracy
-* Performance of Logistic Regression Model
+* **Performance of Logistic Regression Model**
 
 > Accuracy : 0.7710636207320068 
 
@@ -73,7 +72,7 @@ Positive Sentiments are having higher proportion among all.
 
 > Recall : 0.7710636207320068
 
-* Performance of Decision Tree Classifier
+* **Performance of Decision Tree Classifier**
 
 > Accuracy : 0.6129943502824858 
 
@@ -81,7 +80,7 @@ Positive Sentiments are having higher proportion among all.
 
 > Recall : 0.6129943502824858
 
-* Performance of Random Forest Classifier
+* **Performance of Random Forest Classifier**
 
 > Accuracy : 0.7248833210513388 
 
@@ -89,16 +88,13 @@ Positive Sentiments are having higher proportion among all.
 
 > Recall : 0.7248833210513388
 
-* Performance of Gradient Boosting Classifier
+* **Performance of Gradient Boosting Classifier**
 
 > Accuracy : 0.6545074920167036 
 
 > Precision : 0.6962747491301503 
 
 > Recall : 0.6545074920167036
-
-## Confusion Matrix
-A Confusion matrix is an N x N matrix used for evaluating the performance of a classification model, where N is the number of target classes.
 
 ## Conclusion
 
@@ -132,3 +128,17 @@ A Confusion matrix is an N x N matrix used for evaluating the performance of a c
 
 > •	We are getting the highest accuracy of about 77% with Logistic Regression.
 
+## Here are some glimpse of few graphs, there are more in the notebook please have a look.
+<p align="left">
+  <img width="300" height="200" src="https://user-images.githubusercontent.com/99494127/209212550-3a8c0df1-1648-4696-af4c-333e78f0539c.png">
+  &nbsp &nbsp 
+  <img width="300" height="200" src="https://user-images.githubusercontent.com/99494127/209212648-436671d6-0b29-43fa-a399-969f5c97dd9f.png">
+  &nbsp &nbsp
+  <img width="300" height="200" src="https://user-images.githubusercontent.com/99494127/209212726-0c08fc82-0363-484a-8f57-3ed07124f0ac.png">
+  &nbsp &nbsp
+  <img width="300" height="200" src="https://user-images.githubusercontent.com/99494127/209212814-bd62041a-b833-4834-a121-a20a2c5b72a5.png">
+  &nbsp &nbsp 
+  <img width="300" height="200" src="https://user-images.githubusercontent.com/99494127/209212913-bfafd43e-b85e-4d51-880a-e30ffd3e63ca.png">
+  &nbsp &nbsp 
+  <img width="300" height="200" src="https://user-images.githubusercontent.com/99494127/209213007-cdf4ac89-f252-41c6-a206-9d645aed1644.png">
+</p>
