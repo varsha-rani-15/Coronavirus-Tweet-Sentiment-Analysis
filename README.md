@@ -58,7 +58,7 @@ Positive Sentiments are having higher proportion among all.
 > •	Word Cloud
 
 * **Model Training**
-> •	Linear Regression
+> •	Logistic Regression
 > •	Decision Tree Classifier
 > •	Random Forest Classifier
 > •	Gradient Boosting Classifier
