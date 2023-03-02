@@ -1,4 +1,4 @@
-<h1 style="color:blue">Coronavirus Tweet Sentiment Analysis</h1>
+# Coronavirus Tweet Sentiment Analysis
 
 ##	Problem Statement
 This challenge asks us to build a classification model to predict the sentiment of COVID-19 tweets. The tweets have been pulled from Twitter and manual tagging has been done then.
